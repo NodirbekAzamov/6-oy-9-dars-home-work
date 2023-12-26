@@ -1,0 +1,158 @@
+// * {
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: border-box;
+// }
+
+
+.container {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+        margin-top: 50px;
+
+        h6 {
+            font-size: 30px;
+            font-weight: 500;
+            font-family: sans-serif;
+        }
+
+        .list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 35px;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+
+            .change {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                margin-top: 8px;
+                cursor: pointer;
+
+                .change_1 {
+                    width: 20px;
+                    height: 2px;
+                    background: rgb(0, 0, 0);
+                }
+
+                .change_2 {
+                    width: 20px;
+                    height: 2px;
+                    background: rgb(0, 0, 0);
+                }
+
+                .change_3 {
+                    width: 20px;
+                    height: 2px;
+                    background: rgb(0, 0, 0);
+                }
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .btn {
+        margin-bottom: 200px;
+    }
+
+    .header_link {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.matiz_box {
+    text-align: center;
+    width: 270px;
+}
+
+.body {
+    background: #2a558a;
+    height: 100vh;
+    .box {
+        border: 1px solid;
+        color: #fff;
+        width: 500px;
+        h1 {
+            font-family: sans-serif;
+            span {
+                color: #dc0303;
+            }
+        }
+    }
+
+}
+
+// .container {
+//     .login_btn {
+//         padding: 8px 20px;
+//         border: none;
+//         background: blue;
+//         border-radius: 10px;
+
+//         .header_link {
+//             color: white;
+//             text-decoration: none;
+//         }
+//     }
+
+//     .login {
+//         margin-top: 50px;
+
+//         form {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             flex-direction: column;
+//             gap: 20px;
+
+//             input {
+//                 width: 30%;
+//             }
+//         }
+//     }
+// }
+
+// .boxs {
+//     display: flex;
+//     gap: 20px;
+//     flex-wrap: wrap;
+//     margin-top: 30px;
+
+
+//     button {
+//         width: 250px;
+//         padding: 10px 0px 5px 0px;
+//         background: rgb(6, 20, 127);
+//         font-size: 20px;
+//         font-family: sans-serif;
+//         color: #fff;
+//         border-radius: 8px;
+//         margin-top: 5px;
+//         border: none;
+//     }
+
+//     button:hover {
+//         background: yellow;
+//         transition: all 0.5s;
+//         color: #000;
+//     }
+
+// }
